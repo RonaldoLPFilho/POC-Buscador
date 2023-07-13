@@ -1,0 +1,49 @@
+#input_fornecedor {
+    width: 220px;
+    background-color: white;
+    text-align: center;
+  }
+
+  .lista_documentos{
+    margin-top: 5rem;
+    border-top: 3px solid #535bf2;
+  }
+
+  .tabela{
+    width: 100%;
+    border: 1px solid #535bf2;
+  }
+  .tabela th{
+    
+  }
+
+  .tabela tr{
+    
+  }
+
+  .tabela td{
+    border: 1px solid #535bf2;
+    text-align: start;
+
+  }
+
+
+  .botao_pesquisar{
+    display: block;
+    margin: 1em auto 0 auto;  
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.1em 1.0em;
+    font-size: 0.8em;
+    font-weight: bolder;
+    font-family: inherit;
+    background-color: #535bf2;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+ 
+  .botao_pesquisar:disabled{
+    content: "insera 4 caracteres";
+    background: #ccc;
+    color: #484848
+  }
