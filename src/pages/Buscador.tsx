@@ -35,7 +35,7 @@ function Buscador() {
     for (let i = 0; i < qntdRegistros; i++) {
       const nomeDocumento = gerarNomeDocumentoAleatorio();
       const sistemaOrigem: string = 'HUTZ';
-      const linkDownload: string = '../files/teste.txt';
+      const linkDownload: string = "https://unec.edu.az/application/uploads/2014/12/pdf-sample.pdf"
       await novosRegistros.push({ nomeDocumento, sistemaOrigem, linkDownload });
     }
 

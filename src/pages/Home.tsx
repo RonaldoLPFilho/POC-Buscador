@@ -1,11 +1,7 @@
 import { ReactElement } from 'react'
 import './Home.css'
-import logoDecolar from '/home/ronis/Projects/POC-Buscador/src/assets/decolar-logo-2019.svg'
+import logoDecolar from '../assets/decolar-logo-2019.svg'
 import { Link } from 'react-router-dom'
-
-
-
-
 
 function App(): ReactElement {
 

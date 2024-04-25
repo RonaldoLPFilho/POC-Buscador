@@ -1,6 +1,7 @@
 import Table from "react-bootstrap/Table";
 
 
+
 type Registro = {
   nomeDocumento: string;
   sistemaOrigem: string;
@@ -11,7 +12,6 @@ type Props = {
   registros: Registro[];
 };
 
-const file = "../files/file.txt"
 
 function TabelaDinamica({ registros }: Props) {
   return (
@@ -29,7 +29,7 @@ function TabelaDinamica({ registros }: Props) {
             <td>{registro.nomeDocumento}</td>
             <td>{registro.sistemaOrigem}</td>
             <td>
-              <a target="_blank" href={registro.linkDownload} download={registro.linkDownload}>Download</a>
+              <a href={registro.linkDownload} download="teste"> Download</a>
             </td>
           </tr>
         ))}
